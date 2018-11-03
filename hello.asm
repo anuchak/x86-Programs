@@ -5,6 +5,8 @@ global _start
 
 section .text:
 
+_start:
+
        ; prints hello to the screen
        mov eax, 0x4
        mov ebx, 0x1
